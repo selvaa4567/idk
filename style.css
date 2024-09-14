@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 232, 245);
+}
+
+h2{
+    font-size: 3em;
+    color: rgb(255, 75, 147);
+    margin: 15px 0;
+
+   
+}
+.btn-group
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button{
+    position: absolute;
+    width: 150px;
+    color: #ffffff;
+    height: inherit;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 75, 147);
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    font-size: 1.2em;
+
+}
+
+button:nth-child(1) {
+margin-left: -200px;
+background:  rgb(255, 75, 147);
+
+}
+
+
+button:nth-child(2) {
+    margin-right: -200px;
+    background:  rgb(255, 75, 147);
+    
+    }
+    
